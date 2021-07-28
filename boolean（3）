@@ -1,0 +1,16 @@
+boolean pushButton1；
+boolean pushButton2；
+void setup（）{
+pinMode（13，OUTPUT）；
+pinMode（2；INPUT_PULLUP）；
+pinMode（8；INPUT_PULLUP）；
+}
+void loop（）{
+pushButton1 = digitalRead（2）；
+pushButton2 = digitalRead（8）；
+if（！pushButton1 ｜｜！pushButton2） {
+digitalWrite（13，HIGH）；
+} else {
+digitalWrite（13，LOW）；
+}
+}
