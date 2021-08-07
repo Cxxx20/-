@@ -1,0 +1,25 @@
+void setup(){
+  int pinNumber=3;
+  do{
+    pinMode(pinNumber,OUTPUT);
+    pinNumber=pinNumber+1;
+}while(pinNumber<=9);
+}
+void loop(){
+  digitalWrite(4,HIGH);
+  digitalWrite(7,HIGH);
+  delay(500);
+  digitalWrite(4,LOW);
+  digitalWrite(7,LOW);
+  digitalWrite(3,HIGH);
+  digitalWrite(4,HIGH);
+  digitalWrite(5,HIGH);
+  digitalWrite(9,HIGH);
+  digitalWrite(8,HIGH);
+  delay(500);
+  digitalWrite(3,LOW);
+  digitalWrite(4,LOW);
+  digitalWrite(5,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(8,LOW);  
+}
