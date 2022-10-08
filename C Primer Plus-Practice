@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int years = 19;
+	int days = years * 365;
+	printf("I have lived %d years,in other words I've lived %d days\n", years, days);
+	printf("I'm so sorry that I still don't have %d-year-old boy's ability\n",years);
+	return 0;
+}
